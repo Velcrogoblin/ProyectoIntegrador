@@ -1,5 +1,6 @@
 import react, {useState, useEffect} from "react";
-import {useParams, Link} from "react-router-dom";
+import {useParams} from "react-router-dom";
+import styles from "./Detail.module.css"
 
 export default function Detail () {
     const {detailId} = useParams()
@@ -19,8 +20,7 @@ export default function Detail () {
           });
       }, []);
 return (
-    <div>
-        <Link to = {"/Home"}>Home</Link>
+    <div className = {styles.contenedor}>
         <h1>Name: {character.name}</h1>
         <h1>Species: {character.species}</h1>
         <h1>Gender: {character.gender}</h1>

@@ -1,0 +1,9 @@
+.contenedor {
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -300px;
+}

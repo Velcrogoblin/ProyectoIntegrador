@@ -11,14 +11,17 @@
 }
 
 .contenedor {
+position: absolute;
 width: 600px;
 height: 600px;
 display:inline-flex;
 background: url("../imagenes/rickMortyLogin.jpg") center;
 justify-content: center;
 align-items: center;
-margin: auto;
-
+top: 50%;
+left: 50%;
+margin-top: -300px;
+margin-left: -300px;
 }
 
 .boton {
