@@ -1,0 +1,29 @@
+.fondo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.752);
+    width: 400px;
+    height: 400px;
+    color: white;
+}
+
+.contenedor {
+width: 600px;
+height: 600px;
+display:inline-flex;
+background: url("../imagenes/rickMortyLogin.jpg") center;
+justify-content: center;
+align-items: center;
+margin: auto;
+
+}
+
+.boton {
+    background-color: rgb(72, 223, 97);
+    padding: 10px 15px 10px 15px;
+    border-radius: 6px;
+    color: rgb(37, 37, 37);
+}
